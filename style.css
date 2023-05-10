@@ -1,0 +1,487 @@
+/*                              GENERAL                             */
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(4, 4, 4);
+}
+
+div {
+    margin: 0%;
+}
+
+a {
+    color: aliceblue;
+}
+
+/*          DIV HEADER/NAV/FOTOGRAFIA              */
+
+#photo {
+    width: 100%;
+    height: 980px;
+    background-image: url(Imágenes/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 80.5px;
+    display: inline-block;
+}
+
+#tittle {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+#logo {
+    width: 240px;
+}
+
+#menu {
+    background-color: rgba(240, 248, 255, 0);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#list-menu {
+    display: inline-block;
+    margin-left: -10%;
+    margin-top:0.35%;
+}
+
+.items {
+    float: left;
+    padding-top: 4.4%;;
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+
+.info {
+    border: solid 2px rgba(190, 17, 17, 0);
+    width: 50%;
+    height: 50%;  
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 12%;
+}
+
+
+.separador {
+    border: solid 2px aliceblue;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+
+/*          DIV SECTION´S              */
+
+#supercontent {
+    background-color: rgb(240, 248, 255);
+    width: 100%;
+    height: 533px;
+    display: inline-block;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#section1 {
+    background-color: #d03b40;
+}
+
+#section2 {
+    background-color: #ded6c0;
+}
+
+.infosection {
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*          DIV ARTICLE             */
+
+#article {
+    background-color: rgb(240, 248, 255);
+    width: 100%;
+    height: 826.4px;
+    background-image: url(Imágenes/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5px;
+    position: relative;
+}
+
+#infoarticle {
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 13%;
+}
+
+/*          DIV ASIDE´S             */
+
+#superaside {
+    display: block;
+    width: 100%;
+    height: 830px;
+}
+
+.aside {
+    background-color: rgb(240, 248, 255);
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+
+.iconasideleft {
+    border: solid 1px rgba(0, 0, 0, 0);
+    width: 35%;
+    display: inline-block;
+    float: left;
+    height: 415px;
+}
+
+.iconasideright {
+    border: solid 1px rgba(0, 0, 0, 0);
+    width: 65%;
+    display: inline-block;
+    float: left;
+    height: 415px;
+}
+
+.IconSource {
+    margin-top: 23%;
+    margin-left: 13.6%;
+    width: 75%;
+}
+
+.icontittleblack {
+    font-size: 25px;
+    font-family: Poppins;
+    text-align: justify;
+    color: #3c3c3b;
+}
+
+.icontextblack {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #3c3c3b;
+}
+
+.textcontent{
+    margin-top: 15%;
+    width: 90%;
+}
+
+
+/*          DIV ARTICLE/CONTACTO             */
+
+#supercontact {
+    display:block;
+    width: 100%;
+    height: 400px;
+}
+
+.contact {
+    background-color: #d03b40;
+    width: 50%;
+    height: 495px;
+    float: left;
+}
+
+#contact1 {
+background-color: #ded6c0;
+}
+
+.subtittleblack {
+    font-size: 48px;
+    font-family: Poppins;
+    text-align: center;
+    color: #3c3c3b;
+}
+
+.textinfoblack {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #3c3c3b;
+}
+
+.tittlesubtittlewhite {
+    font-size: 48px;
+    font-family: Poppins;
+    text-align: center;
+    color: aliceblue;
+}
+
+.tittletextinfowhite {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.subtittlewhite {
+    font-size: 48px;
+    font-family: Poppins;
+    text-align: center;
+    color: aliceblue;
+}
+
+.textinfowhite {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contactinfo {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+
+
+/*          DIV FOOTER             */
+
+#footer {
+    background-color: #241d1b;
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+#footertext {
+    padding-top: 5%;
+}
+
+/*        MEDIAQUERRYS           */
+
+@media  screen and (max-width:768px) {
+
+    #photo {
+        height: 700px;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    #list-menu {
+        display: inline-block;
+        margin-left: -33%;
+        margin-top: 8%;
+    }
+
+    .items {
+        float: left;
+        padding-top: 4.4%;;
+        margin: -10px;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: aliceblue;
+    }
+
+    .info {
+        border: solid 2px rgba(190, 17, 17, 0);
+        width: 80%;
+        height: 50%;  
+        margin-left: 11%;
+        margin-right: 30%;
+        margin-top: 20%;
+    }
+
+    /*----------------------------------*/
+
+    #supercontact {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        width: 100%;
+        height: 50%;
+        display: block;
+    }
+
+    .infosection {
+        width: 80%;
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+        /*----------------------------------*/
+
+        #article {
+            width: 100%;
+            height: 500px;
+            background-image: url(Imágenes/Fondo2.jpg);
+            background-position-x: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #infoarticle {
+            position: absolute;
+            width: 80%;
+            margin-left: 9%;
+            margin-top: 13%;
+        }
+
+        /*----------------------------------*/
+
+        #superaside {
+            display: block;
+        }
+
+        .aside {
+            display: block;
+            width: auto;
+            height: auto;
+            background-color: white;
+            color: white;
+        }
+
+        .textcontent{
+            margin-top: 15%;
+            width: 50%;
+            display: inline;
+        }
+        
+        .icontextblack {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            color: #3c3c3b;
+            width: 80%;
+            margin-left: 20%;
+            padding-right: 5%;
+            padding-bottom: 1%;
+        }
+
+        .icontittleblack {
+            font-size: 25px;
+            font-family: Poppins;
+            text-align: justify;
+            color: #3c3c3b;
+            padding: 0.6%;
+            margin-top: 1%;
+        }
+        
+        .iconasideleft {
+            height: auto;
+            width: 15%;
+            padding-top: 5%;
+            padding-left: 2%;
+            margin-right: 5%;
+        }
+        
+        .iconasideright {
+            width: 80%;
+            display: inline;
+            float: none;
+            height: 25%;
+        }
+        
+        .IconSource {
+            margin: 0%;
+            width: 100%;
+        }
+
+        /*----------------------------------*/
+
+        #supercontact {
+            width: 100%;
+            height: 100%;
+        }
+
+        .contact {
+            background-color: #d03b40;
+            width: 100%;
+            height: 50%;
+            display: block;
+        }
+
+        .contactinfo {
+            width: 80%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        /*----------------------------------*/
+
+        #footer {
+            background-color: #241d1b;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+        }
+
+        #footertext {
+            text-align: center;
+            padding-bottom: 5%;
+        }
+
+        /*----------------------------------*/
+
+    .subtittlewhite {
+        font-size: 28px;
+        font-family: Poppins;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .textinfowhite {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .subtittleblack {
+        font-size: 28px;
+        font-family: Poppins;
+        text-align: center;
+        color: #3c3c3b;
+    }
+    
+    .textinfoblack {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: #3c3c3b;
+    }
+    
+}
